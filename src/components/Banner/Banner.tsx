@@ -59,14 +59,13 @@ const Banner = () => {
                 <p>
                   As a Web Developer, I always want to create a website as creative as what i can do. Moreover, Aiming to an energetic and professional enviroment is always in my first line. Hope all you guys reach what you search for in this portfolio.
                 </p>
-                <button
-                  onClick={() => {
-                    console.log("Hello again!");
-                  }}
-                >
+                <a href="#connect">
+                  <button>
                   {" "}
+                  
                   Let's Connect <ArrowRightCircle />
                 </button>
+                </a>
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={4}>
