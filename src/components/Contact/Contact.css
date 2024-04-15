@@ -68,8 +68,11 @@
 }
 
 @media screen and (max-width: 1200px){
-  .contact.align-items-center.row .col-md-6:first-child{
+  .contact
+  {
+    .align-items-center.row .col-md-6:first-child{
     display: none;
+  }
   }
   .align-items-center.row .col-md-6{
     width: 100%;
