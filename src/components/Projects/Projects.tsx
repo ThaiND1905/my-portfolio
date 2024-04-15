@@ -38,7 +38,7 @@ const Projects = () => {
             <Row>
                 <Col>
                     <h2>Projects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum vitae commodi odio at dolorum omnis sit doloribus deleniti beatae voluptatem adipisci, perferendis aperiam necessitatibus nobis delectus quibusdam odit illum?</p>
+                    <p>Along my Internship, I have built some projects to show that I properly have potienal to do more than I can imagine. Hope that these projects show that I have able to join with your IT team.</p>
                     <Tab.Container defaultActiveKey="first">
                             <Nav variant='pills' className='nav-pills mb-5 justify-content-center align-content-center' id='pills-tab' defaultActiveKey="first">
                             <Nav.Item>

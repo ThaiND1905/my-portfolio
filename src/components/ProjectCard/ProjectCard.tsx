@@ -6,7 +6,7 @@ const ProjectCard = ({title , description , group , imgUrl } : Project) => {
   return (
     <Col sm={6} md={4}>
       <div className='proj-imgbx'>
-          <img src={imgUrl} height={340} width={345} alt="" />
+          <img src={imgUrl} height={340} width={450} alt="" />
           <div className='proj-text'>
               <h4>{title} : Made by {group}</h4>
               <span>{description}</span>
