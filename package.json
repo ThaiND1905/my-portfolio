@@ -28,7 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install",
+    "build": "npm install && npm install --prefix && react-scripts build",
+    "deploy" :"gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "npx tsx server.ts"
@@ -56,7 +57,7 @@
     "react-scripts": "^5.0.1"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "server.ts",
   "author": "",
   "license": "ISC"
 }
