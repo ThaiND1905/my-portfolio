@@ -56,7 +56,7 @@ const Skills = () => {
               <p>
                 There are so many skills that i have received through my Intern time.......
               </p>
-              <Carousel showStatus={false} className="skill-slider">
+              <Carousel autoPlay={true} showStatus={false} className="skill-slider">
                                     {
                                         skills.map((skill,index) => {
                                             return (
